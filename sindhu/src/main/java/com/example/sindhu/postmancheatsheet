@@ -1,0 +1,17 @@
+important cmd :
+for adding  ---> @PostMapping
+->localhost:8080/add_student
+here hum @Requestbody se le rahe hain to body select karake ,row->json or phir post requst marate h
+
+for getting  ----> @GetMapping
+localhost:8080/add_student?admnNo=18010217 ,yaha pe le trahe hain kyunki hum @RequestByparam se kar rahe hain,agar wahi
+@PathVariable rahta to sirf hum yaha par / lagake id dedete like -localhost:8080/add_student/18010217
+
+
+for Deleting ---> @DeleteMapping
+localhost:8080/delete_student/18010217 ,aise karenge kyuki yaha pe @PathVariable se kar rahe h delete..
+
+
+for updating dtails --->@Putmapping
+localhost:8080/update_student?id=18010217&age=45 ,bcz yaha par multiple @Requestparam liye hai,multiple ko aise hi use
+karate h
